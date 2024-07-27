@@ -25,30 +25,37 @@
 		"image"			""
 		"scaleImage"		"1"
 	}	
-
 	"MapInfo"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"	"MapInfo"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"f0"
-		"tall"		"480"
-		"visible"	"0"
-		"enabled"	"1"
-		"bgcolor_override"	"46 43 42 255"
-	
-		"Background"
+		"fieldName"		"MapInfo"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"0"
+		"enabled"		"1"
+		
+		// "bgcolor_override"	"MichiPinkDark"
+		"bgcolor_override"	"196 180 198 255"
+
+		"RealBackground"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"Background"
+			"fieldName"		"RealBackground"
+
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"640"
+
+			"wide"			"f0"
 			"tall"			"480"
+
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"stamp_background_map"
+
+			"image"			"logos/ui/background01_widescreen"
+			// "image"			"..console/background01" //4:3
+
 			"scaleImage"		"1"
 		}
 
@@ -70,12 +77,15 @@
 		"ContributedLabel"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldName"	"ContributedLabel"
+			"fieldName"		"ContributedLabel"
+
 			"xpos"			"30"
 			"ypos"			"345"
 			"zpos"			"40"
+
 			"wide"			"300"
 			"tall"			"100"
+
 			"visible"		"0"
 			"enabled"		"1"
 	
@@ -83,14 +93,19 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"BG"
+
 				"xpos"			"0"
 				"ypos"			"0"
+
 				"wide"			"300"
 				"tall"			"55"
+
 				"autoResize"	"0"
 				"pinCorner"		"0"
+
 				"visible"		"1"
 				"enabled"		"1"
+
 				"border"		"TFThinLineBorder"
 			}
 	
@@ -112,15 +127,45 @@
 				"enabled"		"1"
 				"centerwrap"	"1"
 				"wrap"			"1"
+
+			}					
+			"ActualLabelShadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"ActualLabelShadow"
+
+				"font"			"HudFontSmallBold"
+				"labelText"		"#TF_Contributed"
+				"textAlignment"	"center"
+
+				"xpos"			"-1"
+				"ypos"			"-11"
+				"zpos"			"40"
+
+				"wide"			"280"
+				"tall"			"55"
+
+				"autoResize"	"0"
+				"pinCorner"		"0"
+
+				"visible"		"1"
+				"enabled"		"1"
+
+				"centerwrap"	"1"
+				"wrap"			"1"
+
+				
+				"fgcolor_override"	"Black"
+				"pin_to_sibling"	"ActualLabel"
 			}					
 		}
 	
 		"InfoBG"
 		{
-			"ControlName"		"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"InfoBG"
 			"xpos"			"c+10"
-			"ypos"			"155"
+			"ypos"			"120"
 			"wide"			"285"
 			"tall"			"280"
 			"autoResize"	"0"
@@ -134,37 +179,101 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Title"
+
 			"font"			"HudFontSmallBold"
 			"labelText"		"%title%"
 			"textAlignment"	"north"
+
 			"xpos"			"c20"
 			"ypos"			"135"
 			"zpos"			"2"
+
 			"wide"			"275"
 			"tall"			"30"
+
 			"autoResize"	"0"
 			"pinCorner"		"0"
+
 			"visible"		"1"
 			"enabled"		"1"
+
 			"fgcolor_override" "255 181 50 255"
 		}
+		"TitleShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TitleShadow"
+
+			"font"			"HudFontSmallBold"
+			"labelText"		"%title%"
+			"textAlignment"	"north"
+
+			"xpos"			"-1"
+			"ypos"			"-1"
+			"zpos"			"2"
+
+			"wide"			"275"
+			"tall"			"30"
+
+			"autoResize"	"0"
+			"pinCorner"		"0"
+
+			"visible"		"1"
+			"enabled"		"1"
+
+			"fgcolor_override" "Black"
+			"pin_to_sibling"	"Title"
+		}
+
 		"MapAuthors"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MapAuthors"
+
 			"font"			"HudFontSmallBold"
 			"labelText"		"%authors%"
 			"textAlignment"	"north"
+
 			"xpos"			"c20"
 			"ypos"			"155"
 			"zpos"			"2"
+
 			"wide"			"275"
-			"tall"			"275"
+			"tall"			"30"
+
 			"autoResize"	"0"
 			"pinCorner"		"0"
+
 			"visible"		"1"
 			"enabled"		"1"
+
 			"wrap"			"0"
+		}
+		"MapAuthorsShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"MapAuthorsShadow"
+
+			"font"			"HudFontSmallBold"
+			"labelText"		"%authors%"
+			"textAlignment"	"north"
+
+			"xpos"			"-1"
+			"ypos"			"-1"
+			"zpos"			"2"
+
+			"wide"			"275"
+			"tall"			"275"
+
+			"autoResize"	"0"
+			"pinCorner"		"0"
+
+			"visible"		"1"
+			"enabled"		"1"
+
+			"wrap"			"0"
+			
+			"fgcolor_override" "Black"
 		}
 
 		"MapLeaderboardTitle"
@@ -222,6 +331,31 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
+	"MapLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapLabelShadow"
+
+		"font"			"HudFontMediumBigBold"
+		"labelText"		"%maplabel%"
+		"textAlignment"	"center"
+
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"50"
+
+		"wide"			"500"
+		"tall"			"35"
+
+		"autoResize"	"0"
+		"pinCorner"		"0"
+
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"fgcolor_override" "Black"
+		"pin_to_sibling"	"MapLabel"
+	}
 	"MapType"
 	{
 		"ControlName"	"CExLabel"
@@ -238,6 +372,31 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+	}
+	"MapTypeShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapTypeShadow"
+
+		"font"			"HudFontSmallBold"
+		"labelText"		"%maptype%"
+		"textAlignment"	"center"
+
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"50"
+
+		"wide"			"350"
+		"tall"			"35"
+
+		"autoResize"	"0"
+		"pinCorner"		"0"
+
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"fgcolor_override"	"Black"
+		"pin_to_sibling"	"MapType"
 	}					
 	"StatData"
 	{
@@ -2601,7 +2760,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TipImage"
 		"xpos"			"c-285"
-		"ypos"			"412-50"
+		"ypos"			"482-50"
 		"zpos"			"12"
 		"wide"			"35"
 		"tall"			"35"
@@ -2621,7 +2780,7 @@
 		"textAlignment_hidef"		"north-west"
 		"textAlignment_lodef"		"north-west"
 		"xpos"			"c-245"
-		"ypos"			"405-50"
+		"ypos"			"475-50"
 		"zpos"			"12"
 		"wide"			"350"
 		"wide_hidef"		"360"
