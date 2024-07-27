@@ -63,7 +63,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MapImage"
-			"xpos"			"30"
+			"xpos"			"rs1"
 			"ypos"			"45"
 			"zpos"			"2"
 			"wide"			"300"
@@ -97,14 +97,14 @@
 				"xpos"			"0"
 				"ypos"			"0"
 
-				"wide"			"300"
-				"tall"			"55"
+				"wide"			"0"
+				"tall"			"0"
 
 				"autoResize"	"0"
 				"pinCorner"		"0"
 
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 
 				"border"		"TFThinLineBorder"
 			}
@@ -123,10 +123,11 @@
 				"tall"			"55"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"centerwrap"	"1"
 				"wrap"			"1"
+				"fgcolor_override"	"GoalOrange"
 
 			}					
 			"ActualLabelShadow"
@@ -139,7 +140,7 @@
 				"textAlignment"	"center"
 
 				"xpos"			"-1"
-				"ypos"			"-11"
+				"ypos"			"-1"
 				"zpos"			"40"
 
 				"wide"			"280"
@@ -148,8 +149,8 @@
 				"autoResize"	"0"
 				"pinCorner"		"0"
 
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 
 				"centerwrap"	"1"
 				"wrap"			"1"
@@ -166,12 +167,12 @@
 			"fieldName"		"InfoBG"
 			"xpos"			"c+10"
 			"ypos"			"120"
-			"wide"			"285"
-			"tall"			"280"
+			"wide"			"0"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"border"		"TFThinLineBorder"
 		}
 
@@ -194,8 +195,8 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 
 			"fgcolor_override" "255 181 50 255"
 		}
@@ -218,8 +219,8 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 
 			"fgcolor_override" "Black"
 			"pin_to_sibling"	"Title"
@@ -244,8 +245,8 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 
 			"wrap"			"0"
 		}
@@ -268,11 +269,12 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 
 			"wrap"			"0"
 			
+			"pin_to_sibling"	"MapAuthors"
 			"fgcolor_override" "Black"
 		}
 
@@ -321,7 +323,7 @@
 		"font"			"HudFontMediumBigBold"
 		"labelText"		"%maplabel%"
 		"textAlignment"		"center"
-		"xpos"			"0"
+		"xpos"			"-25"
 		"ypos"			"55"
 		"zpos"			"50"
 		"wide"			"500"
@@ -2760,7 +2762,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TipImage"
 		"xpos"			"c-285"
-		"ypos"			"482-50"
+		"ypos"			"412-50"
 		"zpos"			"12"
 		"wide"			"35"
 		"tall"			"35"
@@ -2780,7 +2782,7 @@
 		"textAlignment_hidef"		"north-west"
 		"textAlignment_lodef"		"north-west"
 		"xpos"			"c-245"
-		"ypos"			"475-50"
+		"ypos"			"405-50"
 		"zpos"			"12"
 		"wide"			"350"
 		"wide_hidef"		"360"
