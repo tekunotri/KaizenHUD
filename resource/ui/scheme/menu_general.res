@@ -1069,7 +1069,7 @@ Scheme
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"197"
+		"xpos"			"487"
 		"ypos"			"437"
 		"zpos"			"11"
 		"wide"			"30"
@@ -1133,7 +1133,7 @@ Scheme
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"197+23"
+		"xpos"			"487+23"
 		"ypos"			"437"
 		"zpos"			"12"
 		"wide"			"25"
@@ -1195,7 +1195,7 @@ Scheme
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"197+46"
+		"xpos"			"487+46"
 		"ypos"			"437"
 		"zpos"			"12"
 		"wide"			"25"
@@ -1258,7 +1258,7 @@ Scheme
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"197+69"
+		"xpos"			"487+69"
 		"ypos"			"437"
 		"zpos"			"12"
 		"wide"			"25"
