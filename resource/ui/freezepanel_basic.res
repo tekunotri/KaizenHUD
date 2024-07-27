@@ -342,7 +342,7 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"		"NemesisSubPanel"
 			"xpos"			"0"		// FIXME
-			"ypos"			"130"
+			"ypos"			"120"
 			"zpos"			"4"
 			"wide"			"306"
 			"tall"			"38"
@@ -355,9 +355,9 @@
 				"xpos"			"95"
 				"ypos"			"4"
 				"zpos"			"5"
-				"wide"			"161"
+				"wide"			"0"
 				"tall"			"30"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
 				"image"			"../hud/color_panel_brown"
 				"scaleImage"		"1"	
@@ -399,6 +399,27 @@
 				"labelText"		"%nemesisname%"
 				"textAlignment"		"west"
 			}
+			"NemesisLabelShadow"
+			{	
+				"ControlName"		"Label"
+				"fieldName"		"NemesisLabelShadow"
+				"font"			"HudFontMediumSmall"
+				"xpos"			"-1"
+				"ypos"			"-1"
+				"zpos"			"6"
+				"wide"			"112"
+				"tall"			"18"
+				"autoResize"		"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"%nemesisname%"
+				"textAlignment"		"west"
+				"fgcolor_override"	"Black"
+
+
+				"pin_to_sibling"	"NemesisLabel"	
+			}
 			"NemesisLabel2"
 			{	
 				"ControlName"		"Label"
@@ -409,12 +430,33 @@
 				"zpos"			"6"
 				"wide"			"112"
 				"tall"			"18"
-				"autoResize"		"0"
+				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
 				"labelText"		"%nemesisadvice%"
 				"textAlignment"		"west"
+			}
+			"NemesisLabel2Shadow"
+			{	
+				"ControlName"		"Label"
+				"fieldName"		"NemesisLabel2"
+				"font"			"DefaultSmall"
+				"xpos"			"134"
+				"ypos"			"10"
+				"zpos"			"6"
+				"wide"			"112"
+				"tall"			"18"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"0"
+				"enabled"		"1"
+				"labelText"		"%nemesisadvice%"
+				"textAlignment"		"west"
+				"fgcolor_override"	"Black"
+
+
+				"pin_to_sibling"	"NemesisLabel2"
 			}
 		}
 	}
