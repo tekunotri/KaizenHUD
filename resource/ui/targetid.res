@@ -186,18 +186,32 @@
 		"drawcolor_override"	"TanLight"
 	}
 	
+	"KillStreakAnchor"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"KillStreakAnchor"
+		"xpos"										"86"
+		"ypos"										"12"
+		"wide"										"8"
+		"tall"										"8"
+		"visible"									"1"
+		"enabled"									"1"
+	}
 	"KillStreakIcon"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"KillStreakIcon"
-		"xpos"			"37"
-		"ypos"			"14"
-		"zpos"			"12"
-		"wide"			"8"
-		"tall"			"8"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/leaderboard_streak"
-		"scaleImage"	"1"
+		"ControlName"								"ImagePanel"
+		"fieldName"									"KillStreakIcon"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"12"
+		"wide"										"11"
+		"tall"										"11"
+		"visible"									"0"
+		"enabled"									"1"
+		"image"										"../hud/leaderboard_streak"
+		"scaleImage"								"1"
+
+		"pin_to_sibling" 							"KillStreakAnchor"
 	}
+
 }
