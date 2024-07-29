@@ -5,7 +5,7 @@
 		"ControlName"	"CGenericNotificationToast"
 		"fieldName"		"GenericNotificationToast"
 		"xpos"			"0"
-		"ypos"			"-25"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"50"
