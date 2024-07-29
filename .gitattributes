@@ -16,3 +16,4 @@ resource/chat_english.txt diff
 # Ignore these files when downloading as zip (mostly for when making new releases)
 .gitattributes export-ignore
 .gitignore export-ignore
+README.md export-ignore

@@ -315,13 +315,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"c-55" //c3
+		"xpos"			"99999" //c3
 		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"78"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"center"
 		"font"			"HudFontSmallBold"
@@ -331,8 +331,8 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-1+2"
-			"ypos"					"12"
-			"wide"					"45"
+			"ypos"					"0"
+			"wide"					"0"
 			"font"					"HudFontSmallestBold"
 		}
 	}	
@@ -347,7 +347,7 @@
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
-		"tall"			"20"
+		"tall"			"0oh"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
