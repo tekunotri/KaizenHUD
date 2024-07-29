@@ -11,6 +11,10 @@ A commissioned hud based on [MaxiHud](https://gamebanana.com/mods/459129)
 **[INSTALLATION](https://github.com/Hypnootize/TF2-HUD-GitHub-Resources/blob/main/installation/windows_install.md)** -
 **[CONTRIBUTING](https://github.com/Hypnootize/TF2-HUD-GitHub-Resources/blob/main/contributing/github_contributing.md)**
 
+![Menu](https://github.com/user-attachments/assets/6b05a406-8c16-47d4-bc98-583fa1dc142c)
+![Gameplay](https://github.com/user-attachments/assets/874fd83d-4ca6-4b73-9992-5b5f5d0aa49d)
+
+
 </div>
 
 ## Credits
