@@ -2,7 +2,7 @@
 
 # KaizenHUD
 
-[!NOTE]
+> [!WARNING]
 > this hud is meant to be used with 4:3 1440x1080, other aspect ratios and resolutions are **NOT TESTED**
 
 **[SCREENSHOTS](https://imgur.com/a/ltfXphu)** -
