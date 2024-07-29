@@ -5,9 +5,9 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"220"
-		"ypos"			"r180"
-		"wide"			"40"
+		"xpos"			"223" // 145
+		"ypos"			"r120" // r180
+		"wide"			"70"
 		"tall"			"24"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -17,7 +17,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"2"
+		"xpos"			"-3"
 		"ypos"			"2"
 		"zpos"			"0"
 		"wide"			"20"
@@ -75,7 +75,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"c3"
+		"xpos"					"c-20"
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"p0.5"

@@ -1,3 +1,4 @@
+#base "huditemeffectmeter_killstreak.res"
 "Resource/UI/HudItemEffectMeter_PowerupBottles.res"
 {
 	HudItemEffectMeter
@@ -5,8 +6,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c170"
-		"ypos"			"c46"
+		"xpos"			"151" // 220
+		"ypos"			"r123" // r120
 		"wide"			"64"
 		"tall"			"27"
 		"MeterFG"		"White"
@@ -27,7 +28,14 @@
 		"image"			"../hud/ico_powerup_critboost_red"
 		"scaleImage"	"1"
 	}
-	
+	"ItemEffectMeterCountShadow"
+	{
+		"visible"	"0"	
+	}
+	"ItemEffectMeterBG"
+	{
+		"visible"	"0"	
+	}
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"

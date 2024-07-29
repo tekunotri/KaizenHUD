@@ -65,13 +65,48 @@
 			"ypos"			"7"
 			"wide"			"16"
 			"tall"			"16"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"image"			"replay/thumbnails/hud/key_e_icon"
 		}
 	}
-	
+	"FightOverlay"
+	{
+		"ControlName"	"EditablePanel"
+		"xpos"			"-40"
+		"ypos"			"-7"
+		"zpos"			"8"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"mouseinputenabled"	"0"
+		"pin_to_sibling"	"Fight"
+		"Icon"
+		{
+			"ControlName"	"CIconPanel"
+			"wide"			"f0"
+			"tall"			"f0"
+			"scaleImage"	"1"	
+			"icon"			"ico_key_blank"
+			"iconColor"		"255 255 255 255"
+			"proportionaltoparent"	"1"
+		}
+		"Text"
+		{
+			"ControlName"	"Label"
+			"wide"			"f0"
+			"tall"			"f0"
+			"zpos"			"1"
+			"font"			"FontStorePrice"	
+			"labeltext"			"E"
+			"textalignment"			"center"
+			"fgcolor_override"		"Black"
+			"proportionaltoparent"	"1"
+		}
+	}
+
 	"Skip" [$WIN32] 
 	{
 		"ControlName"		"CExButton"
@@ -158,7 +193,7 @@
 			"ypos"			"7"
 			"wide"			"16"
 			"tall"			"16"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"image"			"replay/thumbnails/hud/key_q_icon"
@@ -188,7 +223,42 @@
 		"font"			"MenuSmallFont"
 		"fgcolor"		"TanLight"
 	}
-
+	"BackOverlay"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BackOverlay"
+		"xpos"			"-45"
+		"ypos"			"-7"
+		"zpos"			"8"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"mouseinputenabled"	"0"
+		"pin_to_sibling"	"BackV2"
+		"Icon"
+		{
+			"ControlName"	"CIconPanel"
+			"wide"			"f0"
+			"tall"			"f0"
+			"scaleImage"	"1"	
+			"icon"			"ico_key_blank"
+			"iconColor"		"255 255 255 255"
+			"proportionaltoparent"	"1"
+		}
+		"Text"
+		{
+			"ControlName"	"Label"
+			"wide"			"f0"
+			"tall"			"f0"
+			"zpos"			"1"
+			"font"			"FontStorePrice"	
+			"labeltext"			"Q"
+			"textalignment"			"center"
+			"fgcolor_override"		"Black"
+			"proportionaltoparent"	"1"
+		}
+	}
 	"ReplayVideo" [$WIN32] 
 	{
 		"ControlName"	"CExButton"

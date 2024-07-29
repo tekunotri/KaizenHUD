@@ -538,7 +538,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"PlayerPanelPlayerName"
+				"font"			"HudFontSmallestShadow"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -548,8 +548,28 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
+				"fgcolor_override"	"255 255 255 255"
 				"textAlignment"	"center"
 				"proportionaltoparent"	"1"
+			}			
+			"respawntime_shadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"respawntime_shadow"
+				"font"			"HudFontSmallestShadow"
+				"xpos"			"cs-0.5-1"
+				"ypos"			"-1"
+				"zpos"			"5"
+				"wide"			"f0"
+				"tall"			"19"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%respawntime%"
+				"fgcolor_override"	"Black"
+				"textAlignment"	"center"
+				"proportionaltoparent"	"1"
+				"pin_to_sibling"	"respawntime"
 			}
 			"chargeamount"
 			{
