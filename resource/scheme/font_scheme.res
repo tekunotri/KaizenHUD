@@ -455,7 +455,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"17"
+				"tall"		"15"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
