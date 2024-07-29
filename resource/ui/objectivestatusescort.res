@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusEscort"
 		"xpos"				"c-200"
-		"ypos"				"r150"
+		"ypos"				"r140"
 		"zpos"				"1"
 		"wide"				"400"
 		"tall"				"150"
@@ -46,8 +46,8 @@
 		
 		"if_single_with_hills"
 		{
-			"ypos"			"116"
-			"tall"			"18"
+			"ypos"	"120"
+			"tall"	"10"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}		
 	}	
@@ -78,11 +78,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HomeCPIcon"	
-		"xpos"			"59"	
-		"ypos"			"111"
+		"xpos"		"64"		
+		"ypos"		"116"
 		"zpos"			"1"
-		"wide"			"28"
-		"tall"			"28"
+		"wide"		"18"
+		"tall"		"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -141,11 +141,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SimpleControlPointTemplate"	
-		"xpos"			"60"		
-		"ypos"			"111"	
+		"xpos"		"65"		
+		"ypos"		"116"		
 		"zpos"			"1"
-		"wide"			"28"		
-		"tall"			"28"
+		"wide"		"18"		
+		"tall"		"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -154,7 +154,7 @@
 		"labelText"		""
 		"image"			"../hud/cart_point_neutral"
 		"scaleImage"	"1"	
-
+												
 		"if_multiple_trains"
 		{
 			"xpos"			"61"
@@ -170,13 +170,13 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"EscortItemPanel"
 		"xpos"			"0"
-		"ypos"			"8"
+		"ypos"			"48"
 		"zpos"			"2"
-		"wide"			"80"		
-		"tall"			"115"		
+		"wide"			"52"		
+		"tall"			"75"		
 		"visible"		"1"
 		"enabled"		"1"
-
+				
 		"if_multiple_trains"
 		{
 			"ypos"			"48"
@@ -189,12 +189,12 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"HudFontSmallest"				
-			"xpos"			"35"		
-			"ypos"			"93"		
+			"font"		"ItemFontAttribSmall"		
+			"xpos"		"23"			
+			"ypos"		"60"			
 			"zpos"			"2"
-			"wide"			"10"
-			"tall"			"10"
+			"wide"		"7"
+			"tall"		"7"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -227,11 +227,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImage"	
-			"xpos"			"20"
-			"ypos"			"77"
+			"xpos"		"13"
+			"ypos"		"50"
 			"zpos"			"1"
-			"wide"			"40"
-			"tall"			"40"
+			"wide"		"26"
+			"tall"		"26"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -290,7 +290,7 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"12"
+				"xpos"			"11"
 				"ypos"			"71"
 				"wide"			"30"
 				"tall"			"30"
@@ -312,18 +312,13 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"image"			"replay/thumbnails/cart_icons/cart_alert"
+			"image"			"../hud/cart_alert"
 			"scaleImage"	"1"
-			
-			"if_multiple_trains_top"
-			{
-				"ypos"			"41"
-			}	
 			
 			"if_multiple_trains_bottom"
 			{
-				"xpos"			"-3"				
-				"ypos"			"69"
+				"xpos"			"-5"
+				"ypos"			"75"
 			}
 		}
 		
@@ -331,11 +326,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Speed_Backwards"	
-			"xpos"			"35"
-			"ypos"			"93"
+			"xpos"		"23"
+			"ypos"		"60"
 			"zpos"			"2"
-			"wide"			"10"
-			"tall"			"10"
+			"wide"		"7"
+			"tall"		"7"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -354,7 +349,7 @@
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"54"
+				"ypos"			"46"
 			}	
 			
 			"if_multiple_trains_bottom"
@@ -367,11 +362,11 @@
 		{
 			"ControlName"	"ImagePanel"		
 			"fieldName"		"CapPlayerImage"
-			"xpos"			"33"
-			"ypos"			"91"
+			"xpos"		"20"
+			"ypos"		"58"
 			"zpos"			"3"
-			"wide"			"6"
-			"tall"			"12"
+			"wide"		"4"
+			"tall"		"8"
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			"capture_icon_white"
@@ -386,12 +381,11 @@
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"53"
+				"ypos"			"45"
 			}	
 			
 			"if_multiple_trains_bottom"
 			{
-				"xpos"			"21"
 				"ypos"			"81"
 			}	
 		}
@@ -401,11 +395,12 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
 			"font"			"HudFontSmallest"
-			"xpos"			"39"
-			"ypos"			"93"
+			"font"		"ItemFontAttribSmall"
+			"xpos"		"25"
+			"ypos"		"59"
 			"zpos"			"4"
-			"wide"			"30"
-			"tall"			"10"
+			"wide"		"20"
+			"tall"		"7"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -418,20 +413,19 @@
 			"if_multiple_trains"
 			{
 				"font"			"ItemFontAttribSmall"
+				"xpos"			"25"
 				"wide"			"30"
 				"tall"			"10"
 			}			
 			
 			"if_multiple_trains_top"
 			{
-				"xpos"			"25"
-				"ypos"			"53"
+				"ypos"			"46"
 			}										
 			
 			"if_multiple_trains_bottom"
 			{
-				"xpos"			"26"		
-				"ypos"			"81"
+				"ypos"			"82"
 			}	
 		}
 		
@@ -439,11 +433,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Blocked"	
-			"xpos"			"35"
-			"ypos"			"93"
+			"xpos"		"23"
+			"ypos"		"53"
 			"zpos"			"2"
-			"wide"			"10"
-			"tall"			"10"
+			"wide"		"7"
+			"tall"		"7"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -455,19 +449,18 @@
 			
 			"if_multiple_trains"
 			{
+				"xpos"			"22"
 				"wide"			"8"
 				"tall"			"8"
 			}
 			
 			"if_multiple_trains_top"
 			{
-				"xpos"			"22"
-				"ypos"			"54"
+				"ypos"			"46"
 			}	
 			
 			"if_multiple_trains_bottom"
 			{
-				"xpos"			"23"
 				"ypos"			"83"
 			}
 		}
@@ -476,11 +469,11 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"EscortTeardrop"
-			"xpos"				"13"
-			"ypos"				"13"	
+			"xpos"			"9"
+			"ypos"			"8"			
 			"zpos"				"20"
-			"wide"				"100"			
-			"tall"				"65"		
+			"wide"			"0"			
+			"tall"			"0"			
 			"visible"			"0"
 			"enabled"			"1"
 			
@@ -491,7 +484,7 @@
 				"wide"			"65"			
 				"tall"			"42"			
 			}	
-
+						
 			"Teardrop"
 			{
 				"ControlName"		"CIconPanel"
@@ -499,8 +492,8 @@
 				"xpos"				"0"
 				"ypos"				"0"
 				"zpos"				"0"
-				"wide"				"54"				
-				"tall"				"65"
+				"wide"			"35"				
+				"tall"			"42"
 				"visible"			"1"
 				"enabled"			"1"
 				"scaleImage"		"1"
@@ -520,12 +513,13 @@
 			{	
 				"ControlName"		"Label"
 				"fieldName"			"ProgressText"
-				"font"				"DefaultSmall"
+				"font"			"DefaultVerySmall"
 				"xpos"				"0"
 				"ypos"				"8"
+				"ypos"			"3"
 				"zpos"				"23"
-				"wide"				"54"
-				"tall"				"40"
+				"wide"			"35"
+				"tall"			"28"
 				"autoResize"		"0"
 				"pinCorner"			"0"
 				"visible"			"0"
@@ -550,10 +544,10 @@
 				"ControlName"		"CIconPanel"
 				"fieldName"			"Blocked"
 				"xpos"				"2"
-				"ypos"				"3"
+				"ypos"			"2"	
 				"zpos"				"1"
-				"wide"				"50"
-				"tall"				"50"
+				"wide"			"31"
+				"tall"			"31"
 				"visible"			"1"
 				"enabled"			"1"
 				"scaleImage"		"1"
@@ -573,11 +567,11 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"Capping"	
-				"xpos"			"12"
-				"ypos"			"13"
+				"xpos"		"8"
+				"ypos"		"8"
 				"zpos"			"1"
-				"wide"			"30"
-				"tall"			"30"
+				"wide"		"20"
+				"tall"		"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"0"
