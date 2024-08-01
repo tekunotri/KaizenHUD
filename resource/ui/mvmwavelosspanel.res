@@ -188,7 +188,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"UsageContainer"
-		"xpos"			"390"
+		"xpos"			"330"
 		"ypos"			"160"
 		"wide"			"300"
 		"tall"			"100"
