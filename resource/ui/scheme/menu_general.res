@@ -735,7 +735,7 @@ Scheme
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
 		"xpos"			"268"
-		"ypos"			"334"
+		"ypos"			"317"
 		"zpos"			"10"
 		"wide"			"210"
 		"tall"			"80"
