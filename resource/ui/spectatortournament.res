@@ -14,14 +14,14 @@
 				
 		"team1_player_base_offset_x"		"0"
 		"team1_player_base_x"				"0"
-		"team1_player_base_y"				"60"
+		"team1_player_base_y"				"100"
 		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"40"
+		"team1_player_delta_y"				"0"
 		"team2_player_base_offset_x"		"0"
 		"team2_player_base_y"				"60"
 		"team2_player_base_x"				"60"
 		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"40"
+		"team2_player_delta_y"				"0"
 		
 		"playerpanels_kv"
 		{
