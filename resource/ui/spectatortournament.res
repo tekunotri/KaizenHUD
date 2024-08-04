@@ -124,6 +124,7 @@
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
+
 				"PlayerStatusHealthImage"
 				{
 					"xpos" 	"999"
@@ -200,7 +201,9 @@
 				
 				if_mvm
 				{
-					"ypos"			"17"
+					"xpos"			"30"
+					"ypos"			"8"
+					
 				}
 			}
 			
