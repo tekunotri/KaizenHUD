@@ -78,10 +78,10 @@
 				
 				if_mvm
 				{
-					"xpos"			"5"
-					"ypos"			"4"
-					"wide"			"20"
-					"tall"			"20"
+					"xpos"			"6"
+					"ypos"			"5"
+					"wide"			"19"
+					"tall"			"19"
 					"image"			"../vgui/hud_connecting"
 				}
 			}
@@ -103,7 +103,11 @@
 				
 				if_mvm
 				{
+					"xpos"			"6"
+					"ypos"			"5"
 					"visible"		"1"
+					"wide"			"19"
+					"tall"			"19"
 				}
 			}
 			
